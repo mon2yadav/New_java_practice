@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Calcidemo {
 
-	int a,b,c,d,e;
-	Scanner sc=new Scanner(System.in);
+	
 	
 	public void add()
 	{
-		
+		int a,b,c,d,e;
+		Scanner sc=new Scanner(System.in);
 		System.out.println("Please enter two no. for add");
 		 a=sc.nextInt();
 		 b=sc.nextInt();
