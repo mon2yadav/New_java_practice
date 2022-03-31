@@ -7,7 +7,7 @@ public class Ifelse_calci {
    int input1,input2,output;
 	public void getdata() {
 		
-//	    System.out.println("Please enter the no.");
+	    System.out.println("Please enter the no.");
 	     input1=sc.nextInt();
 //	    System.out.println("please enter + for add and - for subtract");
 	    String choice=sc.next();
@@ -16,11 +16,19 @@ public class Ifelse_calci {
 	     output=0;
 	    if(choice.equals("+"))
 	    {
-	    	output=input1+input2;
+	    	output=input1+input2; 
 	    }
 	    else if(choice.equals("-"))
 	    {
 	    	output=input1-input2;
+	    }
+	    else if(choice.equals("*"))
+	    {
+	    	output=input1*input2;
+	    }
+	    else if(choice.equals("/"))
+	    {
+	    	output=input1/input2;
 	    }
 	    else
 	    {
