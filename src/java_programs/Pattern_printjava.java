@@ -1,14 +1,19 @@
 package java_programs;
 
+import java.util.Scanner;
+
 public class Pattern_printjava {
+	
+	
+
 	public static void main(String[] args) {
 		
-//		
-//		System.out.println("*****");
-//		System.out.println("*****");
-//		System.out.println("*****");
-//		System.out.println("*****");
-//		System.out.println("*****");
+		
+		System.out.println("*****");
+		System.out.println("*****");
+		System.out.println("*****");
+		System.out.println("*****");
+		System.out.println("*****");
 	
      for(int i=0; i<5; i++)
      {
@@ -18,5 +23,7 @@ public class Pattern_printjava {
     	 }
     	 System.out.println();
      }
+		
+		
 	}
 }
