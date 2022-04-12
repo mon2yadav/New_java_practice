@@ -18,7 +18,7 @@ public class ForLoop_Demo {
 		System.out.println(i);	
 		}
 	}
-	 
+	  
 	public void gettable(int num)
 	{
 		for(int i=1; i<=10; i++)

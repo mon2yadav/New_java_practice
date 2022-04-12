@@ -8,7 +8,7 @@ public class ReverseString_sameposition {
 	{
 		String [] str=input.split(" ");
 		String out="";
-		for(int i=0; i>=str.length-1; i++)
+		for(int i=0; i<=str.length-1; i++)
 		{
 			char[] c=str[i].toCharArray();
 			for(int k=c.length-1; k>=0; k--)

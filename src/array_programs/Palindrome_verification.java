@@ -7,20 +7,24 @@ public class Palindrome_verification {
 	
 	public String getdata(String input)
 	{
+		
 		String out="";
 		char [] c=input.toCharArray();
+		
 		int len=c.length-1;
 		for(int i=len; i>=0; i--)
 		{
 			out=out+c[i];
-			if(out.equals(out))
-			{
-				System.out.println(c+"is a pallindrome");
-			}
-			else
-			{
-				System.out.println(c+"is not a pallindrome");
-			}
+			
+			
+		}
+		if(out.equals(input))
+		{
+			System.out.println(input + " is a pallindrome");
+		}
+		else
+		{
+			System.out.println(input + " is not a pallindrome");
 		}
 		return out;
 	}
@@ -32,5 +36,6 @@ public class Palindrome_verification {
 		String input=sc.next();
 		String data=ob.getdata(input);
 		System.out.println(data);
+		
 	}
 }
