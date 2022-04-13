@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Compare_reverseString {
 
-	public void getdata(String input) {
+	public void getdata(String input,String word) {
 
 		String[] str = input.split(" ");
             
-		String str1 = "your";
+		String word1="";
 		String out = "";
 		for (int i = 0; i < str.length; i++) {
-			if (str[i].equals(str1)) {
-				char[] c = str1.toCharArray();
+			if (str[i].equals(word)) {
+				char[] c = word.toCharArray();
 				for (int k = c.length - 1; k >= 0; k--) {
 					out = out + c[k];
 				}
@@ -22,23 +22,21 @@ public class Compare_reverseString {
 			{
 				System.out.println("wrong entity");
 			}
-			
-
 			out = out + "";
-
-		}
-		
-
-		System.out.println(out);
+    }
+	  System.out.println(out);
 	
 	}
 
 	public static void main(String[] args) {
 		Compare_reverseString ob = new Compare_reverseString();
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("Please enter the sentence");
 		String data = sc.nextLine();
-		ob.getdata(data);
+		System.out.println("Please enter the word for match");
+		String word=sc.next();
+		ob.getdata(data, word);
 
 	}
 }
