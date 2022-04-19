@@ -13,6 +13,7 @@ public class SecondHighest_number {
 		{
 			if(max<arr[j])
 			{
+				secondmax=max;
 				max=arr[j];
 			}
 			else if(secondmax<arr[j])
