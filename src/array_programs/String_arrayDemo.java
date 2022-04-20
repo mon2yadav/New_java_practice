@@ -38,6 +38,6 @@ public class String_arrayDemo {
 	public static void main(String[] args) {
 		String_arrayDemo ob=new String_arrayDemo();
 		ob.getdata();
-//		ob.getdata1();
+		ob.getdata1();
 	}
 }
