@@ -23,7 +23,6 @@ public class Exception_handling {
 		Exception_handling ob=new Exception_handling();
 		ob.getdata();
 		ob.showdata();
-		
 		ob.printdata();
 	}
 }
