@@ -10,8 +10,12 @@ public class Finally_exception_demo {
 //			String O=123;             //input mismatch exception
 //			int a=10/10;
 //			String k="123";
+			
+			
 //			String s=null;
 //			System.out.println(s.length());     // null pointer exception 
+			
+			
 //			int out=Integer.parseInt(/
 			
 //			String M="naveen";
