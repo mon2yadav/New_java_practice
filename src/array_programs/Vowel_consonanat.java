@@ -8,11 +8,12 @@ public class Vowel_consonanat {
 	public void getdate()
 	{
 		char c[]=new char[5];
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter the character");
-		for(int i=0; i<=4; i++)
-		{
-			c[i]=sc.next().charAt(0);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the character");
+			for(int i=0; i<=4; i++)
+			{
+				c[i]=sc.next().charAt(0);
+			}
 		}
 		for(int j=0; j<=4; j++)
 		{

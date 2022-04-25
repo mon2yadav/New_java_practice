@@ -15,5 +15,6 @@ public Super_parametrized_constructor() {
 	
 	public static void main(String[] args) {
 		Super_parametrized_constructor ob=new Super_parametrized_constructor();
+		
 	}
 }

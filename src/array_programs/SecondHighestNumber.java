@@ -28,15 +28,16 @@ public class SecondHighestNumber {
 	
 	public static void main(String[] args) {
 		SecondHighestNumber ob = new SecondHighestNumber();
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter the size of array");
-		int size=sc.nextInt();
-		int []a=new int[size];
-		System.out.println(" please enter the number");
-		for(int i=0; i<=a.length-1; i++)
-		{
-			a[i]=sc.nextInt();
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the size of array");
+			int size=sc.nextInt();
+			int []a=new int[size];
+			System.out.println(" please enter the number");
+			for(int i=0; i<=a.length-1; i++)
+			{
+				a[i]=sc.nextInt();
+			}
+			ob.getdata(a);
 		}
-		ob.getdata(a);
 	}
 }

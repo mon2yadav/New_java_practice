@@ -16,12 +16,13 @@ public class Parametrized_constructor {
 	}
 	
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter two inputs");
-		int a=sc.nextInt();
-		int b=sc.nextInt();
-		
-		Parametrized_constructor ob=new Parametrized_constructor(a,b);
-		ob.showdata(a,b);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter two inputs");
+			int a=sc.nextInt();
+			int b=sc.nextInt();
+			
+			Parametrized_constructor ob=new Parametrized_constructor(a,b);
+			ob.showdata(a,b);
+		}
 	}
 }
