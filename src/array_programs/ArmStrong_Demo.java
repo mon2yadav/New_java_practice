@@ -28,9 +28,10 @@ public class ArmStrong_Demo {
 	
 	public static void main(String[] args) {
 		ArmStrong_Demo ob=new ArmStrong_Demo();
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter the number");
-		int input=sc.nextInt();
-		ob.getdataofarmstrong(input);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the number");
+			int input=sc.nextInt();
+			ob.getdataofarmstrong(input);
+		}
 	}
 }

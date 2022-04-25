@@ -6,11 +6,12 @@ public class ArrayFirst_Demo {
 
 	public void getdata() {
 		int a[]=new int[5];
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter the number");
-		for(int i=0; i<=4; i++)
-		{
-			a[i]=sc.nextInt();
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the number");
+			for(int i=0; i<=4; i++)
+			{
+				a[i]=sc.nextInt();
+			}
 		}
 		for(int j=4; j>=0; j--)
 		{

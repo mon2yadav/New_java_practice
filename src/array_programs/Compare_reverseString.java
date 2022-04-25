@@ -8,7 +8,6 @@ public class Compare_reverseString {
 
 		String[] str = input.split(" ");
             
-		String word1="";
 		String out = "";
 		for (int i = 0; i < str.length; i++) {
 			if (str[i].equals(word)) {
@@ -30,13 +29,13 @@ public class Compare_reverseString {
 
 	public static void main(String[] args) {
 		Compare_reverseString ob = new Compare_reverseString();
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Please enter the sentence");
-		String data = sc.nextLine();
-		System.out.println("Please enter the word for match");
-		String word=sc.next();
-		ob.getdata(data, word);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the sentence");
+			String data = sc.nextLine();
+			System.out.println("Please enter the word for match");
+			String word=sc.next();
+			ob.getdata(data, word);
+		}
 
 	}
 }
