@@ -23,17 +23,18 @@ public class Mximum_numberDemo {
 	
 	public static void main(String[] args) {
 		Mximum_numberDemo ob=new Mximum_numberDemo();
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter the array size");
-		int size=sc.nextInt();
-		System.out.println("Please enter the numbers");
-		int [] a=new int[size];
-		for(int i=0; i<size; i++)
-		{
-			a[i]=sc.nextInt();
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the array size");
+			int size=sc.nextInt();
+			System.out.println("Please enter the numbers");
+			int [] a=new int[size];
+			for(int i=0; i<size; i++)
+			{
+				a[i]=sc.nextInt();
+			}
+			int data=ob.getdata(a);
+			System.out.println("Maximum number is "+data);
 		}
-		int data=ob.getdata(a);
-		System.out.println("Maximum number is "+data);
 		
 	}
 }

@@ -31,11 +31,12 @@ public class Palindrome_verification {
 	
 	public static void main(String[] args) {
 		Palindrome_verification ob=new Palindrome_verification ();
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter the name");
-		String input=sc.next();
-		String data=ob.getdata(input);
-		System.out.println(data);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the name");
+			String input=sc.next();
+			String data=ob.getdata(input);
+			System.out.println(data);
+		}
 		
 	}
 }

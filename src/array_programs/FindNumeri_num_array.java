@@ -21,11 +21,12 @@ public class FindNumeri_num_array {
 
 	public static void main(String[] args) {
 		FindNumeri_num_array ob=new FindNumeri_num_array();
-		Scanner sc=new Scanner(System.in);
-		System.out.println(" Please enter the number");
-		long input=sc.nextLong();
-		System.out.println("Please enter the number do u want");
-		 int input1=sc.nextInt();
-		 ob.getdata(input,input1);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println(" Please enter the number");
+			long input=sc.nextLong();
+			System.out.println("Please enter the number do u want");
+			 int input1=sc.nextInt();
+			 ob.getdata(input,input1);
+		}
 	}
 }
