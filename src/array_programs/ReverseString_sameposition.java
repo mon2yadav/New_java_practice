@@ -21,9 +21,10 @@ public class ReverseString_sameposition {
 	}
 	public static void main(String[] args) {
 		ReverseString_sameposition ob=new ReverseString_sameposition();
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter the sentence");
-		String data=sc.nextLine();
-		ob.getreverse(data);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the sentence");
+			String data=sc.nextLine();
+			ob.getreverse(data);
+		}
 	}
 }

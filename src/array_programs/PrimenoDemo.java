@@ -30,9 +30,10 @@ public class PrimenoDemo {
 	
 	public static void main(String[] args) {
 		PrimenoDemo ob=new PrimenoDemo();
-		Scanner sc=new Scanner(System.in);
-		System.out.println(" Please enter the number");
-		 int input=sc.nextInt();
-		 ob.getvalidate(input);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println(" Please enter the number");
+			 int input=sc.nextInt();
+			 ob.getvalidate(input);
+		}
 	}
 }

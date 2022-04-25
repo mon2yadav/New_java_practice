@@ -21,13 +21,14 @@ public class ReverseString_Array {
 	}
 	public static void main(String[] args) {
 		ReverseString_Array ob =new ReverseString_Array();
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Please enter the name");
-		String input=sc.next();
-		
-	
-		String data=ob.getdata(input);
-		System.out.println(data);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Please enter the name");
+			String input=sc.next();
+			
+
+			String data=ob.getdata(input);
+			System.out.println(data);
+		}
 		
 	}
 }

@@ -1,7 +1,5 @@
 package array_programs;
 
-import java.util.Scanner;
-
 public class Prime_number_choicewise {
 
 	
@@ -30,7 +28,7 @@ public class Prime_number_choicewise {
 	
 	public static void main(String[] args) {
 		Prime_number_choicewise ob=new Prime_number_choicewise();
-		Scanner sc=new Scanner(System.in);
+//		Scanner sc=new Scanner(System.in);
 		ob.getprimenumber();
 				
 	}
