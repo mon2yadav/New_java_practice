@@ -7,6 +7,7 @@ public class LinkedList_demo {
 	
 	public static void getdata() {
 		LinkedList<String> li=new LinkedList<String>();
+		
 		li.add("montu");
 		li.add("naveen");
 		li.add(0,"ravi");
