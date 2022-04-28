@@ -12,7 +12,7 @@ public class ExcelUtility_demo {
 		String data="";
 		try {
 			FileInputStream fis=new FileInputStream(path);
-			XSSFWorkbook wb=new XSSFWorkbook();
+			XSSFWorkbook wb=new XSSFWorkbook(fis);
 			XSSFSheet sheet = wb.getSheetAt(0);
 			data=sheet.getRow(rownum).getCell(column).getStringCellValue();
 			
@@ -32,5 +32,6 @@ public class ExcelUtility_demo {
 		}
 		
 	}
-
 }
+
+
