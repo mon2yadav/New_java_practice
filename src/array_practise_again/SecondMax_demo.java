@@ -12,6 +12,7 @@ public class SecondMax_demo {
 		{
 			if(max<arr[i])
 			{
+				secondmax=max;
 				max=arr[i];
 			}
 			else if(secondmax<arr[i])
