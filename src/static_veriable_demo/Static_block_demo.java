@@ -1,9 +1,10 @@
 package static_veriable_demo;
 
 public class Static_block_demo {
+	static int a=0;
 	public Static_block_demo() {
-		int a=2;
-	System.out.println(a);
+		a++;
+	System.out.println(a);  
 } 
 
 	static
@@ -13,6 +14,8 @@ public class Static_block_demo {
 		
 	public static void main(String[] args) {
 		Static_block_demo ob=new Static_block_demo();
+		Static_block_demo ob1=new Static_block_demo();
+		Static_block_demo ob2=new Static_block_demo();
 		System.out.println(" Hello main block");
 	}
 }

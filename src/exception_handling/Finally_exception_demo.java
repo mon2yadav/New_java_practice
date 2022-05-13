@@ -16,7 +16,7 @@ public class Finally_exception_demo {
 //			System.out.println(s.length());     // null pointer exception 
 			
 			
-//			int out=Integer.parseInt(/
+//			int out=Integer.parseInt(/      // this is used to convert string into integer 
 			
 //			String M="naveen";
 //			int out1=Integer.parseInt(M);      // number format exception
