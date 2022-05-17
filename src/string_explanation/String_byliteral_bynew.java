@@ -16,7 +16,7 @@ public class String_byliteral_bynew {
 		{
 			System.out.println(false);
 		}
-		if(s1==s2) {
+		if(s==s2) {
 			System.out.println(true);
 		}
 		else

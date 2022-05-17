@@ -15,6 +15,8 @@ public class String_Buffer_demo_method {
 		System.out.println(sf.insert(6, " ji"));
 //		System.out.println(out1);
 		
+		
+		
 	}
 
 }
