@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ForLoop_Demo {
 
 	public void getdata() {
-		for(int i=1; i<=10; i++)
+		for(int i=1; i<=20; i++)
 		{
 			System.out.println(i+"*7="+i*7);
 		}
@@ -31,12 +31,12 @@ public class ForLoop_Demo {
 	
 	public static void main(String[] args) {
 		ForLoop_Demo ob=new ForLoop_Demo();
-//		Scanner sc=new Scanner(System.in);
-//		System.out.println("Please enter the number");
-//		int num=sc.nextInt();
-//		ob.gettable(num);
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Please enter the number");
+		int num=sc.nextInt();
+		ob.gettable(num);
 		ob.getdata(); 
-//		ob.getchardata();
+		ob.getchardata();
 		
 		
 	}

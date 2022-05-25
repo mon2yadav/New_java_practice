@@ -7,7 +7,7 @@ public class Accurance_hashset_demo {
 	public static void getdata(String input)
 	{
 		try {
-			char[] arr=input.toCharArray();
+			char[] arr = input.toCharArray();
 			HashSet<Character> hs=new HashSet<Character>();
 			for(int i=0; i<=arr.length-1; i++)
 			{
@@ -34,7 +34,7 @@ public class Accurance_hashset_demo {
 	
 	public static void main(String[] args) {
 		
-		getdata("moontuyadav");
+		getdata("naveenkumarsharmawithmontuyadav");
 	}
 
 }
