@@ -6,6 +6,7 @@ public class GST_calculator_Ifelse {
 	
 	public void getgst(float amount)
 	{
+		float payableamount;
 		float gst=0;
 		if(amount<1000)
 		{
@@ -19,7 +20,9 @@ public class GST_calculator_Ifelse {
 		{
 			gst=(amount*18)/100;
 		}
-		System.out.println(gst);
+		System.out.println("your gst is "+gst);
+		payableamount=gst+amount;
+		System.out.println("your payable amount is "+payableamount);
 	}
 
 	

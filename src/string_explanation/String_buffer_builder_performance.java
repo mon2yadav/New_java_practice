@@ -17,6 +17,7 @@ public class String_buffer_builder_performance {
 		for(int i=0; i<=1000000; i++)
 		{
 			sf.append("java");
+			
 		}
 		endtime=System.currentTimeMillis();
 		System.out.println(" Time taken by buffer "+(endtime-starttime)+" ms");

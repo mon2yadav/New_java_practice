@@ -30,7 +30,7 @@ public class Vishal_Mega_Mart_Demo {
 			gst=(price*10)/100;
 		}
 		else 
-		{
+		{ 
 			gst=(price*18)/100;
 		}
 		return gst;
